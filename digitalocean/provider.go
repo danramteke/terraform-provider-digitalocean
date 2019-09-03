@@ -43,6 +43,7 @@ func Provider() terraform.ResourceProvider {
 			"digitalocean_database_cluster":   dataSourceDigitalOceanDatabaseCluster(),
 			"digitalocean_domain":             dataSourceDigitalOceanDomain(),
 			"digitalocean_droplet":            dataSourceDigitalOceanDroplet(),
+			"digitalocean_droplet_list":       dataSourceDigitalOceanDropletList(),
 			"digitalocean_droplet_snapshot":   dataSourceDigitalOceanDropletSnapshot(),
 			"digitalocean_floating_ip":        dataSourceDigitalOceanFloatingIp(),
 			"digitalocean_image":              dataSourceDigitalOceanImage(),
